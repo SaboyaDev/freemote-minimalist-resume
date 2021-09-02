@@ -7,3 +7,138 @@
 	#050505
 	#db9d47
 */
+
+/* Google Font Inport */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+}
+
+body {
+	background-color: #fefefa;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.6rem;
+}
+
+p {
+	font-size: 1.4rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Header */
+.container {
+	max-width: 520px;
+	background-color: #fafafa;
+	height: 100vh;
+	margin: 4rem auto;
+	box-shadow: 1px -1px 61px -1px rgba(0, 0, 0, 0.69);
+	-webkit-box-shadow: 1px -1px 61px -1px rgba(0, 0, 0, 0.69);
+	-moz-box-shadow: 1px -1px 61px -1px rgba(0, 0, 0, 0.69);
+	border-radius: 10px;
+	position: relative;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem 0 5rem;
+	color: #000;
+}
+
+#portfolio-img {
+	width: 35%;
+	border-radius: 50%;
+	margin: 6rem 0 2rem;
+}
+
+.inner-ctr {
+	padding: 5rem;
+}
+
+#about-section {
+	background-color: #1D84B5;
+}
+
+#experience-section {
+	background-color: #176087;
+}
+
+.title {
+	display: block;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #FAFAFA;
+}
+
+.resume-content {
+	padding-top: 2rem;
+}
+
+.job {
+	margin-bottom: 2rem;
+	display: flex;
+	align-items: center;
+}
+
+.job i {
+	font-size: 2rem;
+}
+
+.job p {
+	display: inline;
+	margin-left: 1rem;
+}
+
+footer {
+	background-color: #050505;
+	color: #aaaaaa;
+}
+
+.social-media-ctr {
+	padding-top: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.social-media {
+	border: 1px solid;
+	padding: 1rem 2rem;
+	border-radius: 5rem;
+	margin: 0 0.5rem 2rem;
+	cursor: pointer;
+}
+
+.social-media i {
+	font-size: 1.4rem;
+}
+
+.social-media p {
+	display: inline;
+	margin-left: 1rem;
+}
